@@ -1,0 +1,49 @@
+# Dataset directories
+train/
+public_test/
+private_test/
+data/
+
+# Raw & processed data formats
+*.csv
+*.xlsx
+*.xls
+*.sqlite
+*.sqlite3
+*.db
+*.duckdb
+*.duckdb.wal
+*.parquet
+*.feather
+*.pkl
+*.pickle
+
+# Submissions, predictions & evaluation outputs
+submission*.jsonl
+predictions*.jsonl
+outputs/
+results/
+logs/
+cache/
+.cache/
+
+# Python environments & bytecode
+__pycache__/
+*.py[cod]
+*$py.class
+.venv/
+venv/
+env/
+.env
+.pytest_cache/
+.mypy_cache/
+.ruff_cache/
+
+# OS & IDE files
+.DS_Store
+Thumbs.db
+.vscode/
+.idea/
+
+HARNESS_BLUEPRINT.md
+
